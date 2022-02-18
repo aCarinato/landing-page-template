@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,700;0,900;1,800&family=Ubuntu&display=swap');
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.colored-section {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white-section {
+  background-color: white;
+}
+
+/* -------------------------------------------- */
+/* HERO SECTION */
+/* -------------------------------------------- */
+
+/* HERO SECTION - Navbar */
+
+.navbar {
+  font-family: 'Ubuntu';
+  font-weight: bold;
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-size: 3rem;
+}
+
+.nav-link {
+  font-size: 1.25rem;
+}
+
+#title {
+  text-align: left;
+}
+
+#title h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+#title .container-fluid {
+  padding-top: 3%;
+}
+
+/* HERO SECTION - Buttons */
+
+.btn-download {
+  margin: 5% 3% 5% 0;
+}
+
+/* HERO SECTION - Image */
+.title-img {
+  width: 60%;
+  transform: rotate(25deg);
+  /* z-index: -1; */
+  position: absolute;
+  right: 30%;
+}
+
+.img-div {
+  position: relative;
+}
+
+/* -------------------------------------------- */
+/* -------------------------------------------- */
+
+/* -------------------------------------------- */
+/* FEATURES SECTION */
+/* -------------------------------------------- */
+
+#features h3 {
+  font-weight: 700;
+}
+
+#features .row {
+  padding: 3% 15%;
+}
+
+.features-i {
+  color: #ef8172;
+  margin-bottom: 1.5rem;
+}
+
+.features-i:hover {
+  color: #ff4c68;
+}
+
+.col-lg-4 {
+  padding: 2.5rem 1.5rem 2.5rem 1.5rem;
+}
+
+#features {
+  position: relative;
+  /* z-index: 1; */
+}
+
+/* -------------------------------------------- */
+/* -------------------------------------------- */
+
+/* -------------------------------------------- */
+/* TESTIMONIAL SECTION */
+/* -------------------------------------------- */
+
+h2 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+/* -------------------------------------------- */
+/* -------------------------------------------- */
+
+/* -------------------------------------------- */
+/* PRESS SECTION */
+/* -------------------------------------------- */
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+/* -------------------------------------------- */
+/* -------------------------------------------- */
+
+/* -------------------------------------------- */
+/* PRICING SECTION */
+/* -------------------------------------------- */
+
+.pricing-col {
+  padding: 3% 2%;
+  /* height: 150px; */
+}
+
+.card-footer {
+  border-top: 0rem;
+}
+
+#pricing {
+  padding: 100px;
+}
+
+/* -------------------------------------------- */
+/* -------------------------------------------- */
+
+/* -------------------------------------------- */
+/* CTA SECTION */
+/* -------------------------------------------- */
+
+#cta h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* -------------------------------------------- */
+/* -------------------------------------------- */
+
+/* -------------------------------------------- */
+/* FOOTER SECTION */
+/* -------------------------------------------- */
+
+.social-icon {
+  margin: 20px 10px;
+  color: #ff4c68;
+}
+
+/* -------------------------------------------- */
+/* MEDIA QUERIES */
+/* -------------------------------------------- */
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0deg);
+  }
+}
